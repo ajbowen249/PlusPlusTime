@@ -39,5 +39,4 @@ fn main() {
     println!("{}", itoa(15, 16));
     println!("{}", itoa(31, 32));
     println!("{}", itoa(35, 36));
-    println!("{}", itoa(-2147483648, 10));
 }

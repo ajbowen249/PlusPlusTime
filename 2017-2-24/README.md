@@ -1,8 +1,8 @@
-# atoi in Language of Choice
+# itoa in Language of Choice
 
-This challenge was an exploration of our favorite languages by way of implementing the standard `atoi` function. I chose to use [Rust](https://www.rust-lang.org).
+This challenge was an exploration of our favorite languages by way of implementing the standard `itoa` function. I chose to use [Rust](https://www.rust-lang.org).
 
 To run:
 
-         cd atoi
+         cd itoa
          cargo run
