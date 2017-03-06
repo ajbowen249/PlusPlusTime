@@ -11,9 +11,9 @@ fn is_prime(number: u64) -> i8 {
 
     loop {
         if number % maybe_factor == 0 {
-            return -1
-        //I couldn't find a way of finding the square root of a u64 in the allotted time,
-        //and with a small set of inputs this at least proves faster than testing from 2 to n-1.
+            return -1;
+            //I couldn't find a way of finding the square root of a u64 in the allotted time,
+            //and with a small set of inputs this at least proves faster than testing from 2 to n-1.
         } else if maybe_factor * maybe_factor > number {
             return 1;
         }
@@ -29,15 +29,21 @@ fn main() {
     match arg {
         Some(arg_value) => {
             let parsed = arg_value.parse::<u64>();
-            match parsed{
-                Ok(value) =>{
+            match parsed {
+                Ok(value) => {
                     let result = is_prime(value);
-                    let response = if result == 1 {"true"} else if result == -1 {"false"} else {"undefined"};
+                    let response = if result == 1 {
+                        "true"
+                    } else if result == -1 {
+                        "false"
+                    } else {
+                        "undefined"
+                    };
                     println!("{}", response);
-                },
-                Err(_) => println!("Error: could not parse")
+                }
+                Err(_) => println!("Error: could not parse"),
             }
-        },
-        None => println!("Error: no argument")
+        }
+        None => println!("Error: no argument"),
     }
 }
