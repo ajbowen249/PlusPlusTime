@@ -3,3 +3,8 @@
 
 #Rust junk
 target/
+
+#waf junk
+build/
+.waf*
+.lock*
