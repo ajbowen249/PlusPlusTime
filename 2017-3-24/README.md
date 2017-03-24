@@ -17,11 +17,19 @@ I have also distributed a simple and small, one-file C++ language md5 implementa
 Other languages (Python, JavaScript, etc.) may have more convenient md5 functionality built in or readily integrated.
 
 trivial:        5f4dcc3b5aa765d61d8327deb882cf99
+
 word:           ad731488b5c222c0d97c1a15e26d45ed
+
 lowercase4:     728253e548c0ce53e72e63320578b098
+
 dword10:        5034ae846e3047a6fb433aeac061c826
+
 wordsha:        7aaaa4563da62da0ec704299ffaf2e78
+
 memorable:      e9f5bd2bae1c70770ff8c6e6cf2d7b76
+
 hard:           a029a1fae39c578741fc058e315cc3fd
+
 extreme:        c818e3deb066e06e7c094d89cecb4a05
+
 impossible:     3d8f036425f3ab824cb5c9fa119fdd89
