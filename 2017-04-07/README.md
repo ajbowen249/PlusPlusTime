@@ -1,0 +1,2 @@
+# Maximum Sum Down Triangle Path In Language Of Choice
+This week, we were asked to solve [this problem](https://projecteuler.net/problem=67) in our langauge of choice. I wimped out and went for a quick brute-force approach (int rustlang), and later on implemented the solution that was given to us in a hint. 

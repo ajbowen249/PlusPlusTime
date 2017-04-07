@@ -1,0 +1,4 @@
+[root]
+name = "max_path_sum"
+version = "0.1.0"
+
