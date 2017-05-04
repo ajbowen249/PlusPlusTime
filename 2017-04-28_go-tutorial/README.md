@@ -1,2 +1,2 @@
 # Go Tutorial
-This week, I lead a [tutorial in Go](https://github.com/ajbowen249/GoTutorial).
+This week, I led a [tutorial in Go](https://github.com/ajbowen249/GoTutorial).
